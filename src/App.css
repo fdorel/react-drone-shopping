@@ -1,0 +1,59 @@
+/*CSS Custom variables setup*/
+:root{
+  --mainBlue: #F2A711;
+  --lightBlue: #50CDFC;
+  --mainWhite: #F9FEFD;
+  --mainDark: #000000;
+  --mainYellow: #D00521;
+}
+
+body{
+  font-family: 'Dosis' !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+  overflow-x: hidden;
+}
+
+.text-title{
+  font-family: 'Dosis' !important;
+  letter-spacing: 0.075rem;
+  text-transform: uppercase;
+}
+
+.text-blue{
+  color: var(--mainBlue);
+}
+
+.text-bright{
+  color: var(--lightBlue);
+}
+
+.btn-black {
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark);
+  border-radius: 5px !important;
+  border: 0.1rem solid var(--mainDark) !important;
+}
+
+.btn-black:hover {
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+.cart-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
+.row .about {
+  padding: 20px;
+}
+
+
+/*.navbar .navbar-dark .navbar-brand {
+  color: var(--mainYellow);
+  font-size: 1.2rem;
+}*/
