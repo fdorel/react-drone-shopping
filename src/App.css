@@ -11,7 +11,7 @@ body{
   font-family: 'Dosis' !important;
   background: var(--mainWhite) !important;
   color: var(--mainDark) !important;
-  
+  overflow-x: hidden;
 }
 
 .text-title{
