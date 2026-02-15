@@ -20,7 +20,7 @@ const ProductContext = React.createContext();
 
     componentDidMount(){
     	this.setProducts();
-	}
+	};
 	setProducts = () => {
 		let tempProducts  = [];
 		storeProducts.forEach(item => {
