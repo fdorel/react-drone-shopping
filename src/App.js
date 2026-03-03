@@ -16,7 +16,7 @@ class App extends Component {
     return (
       /*React.Fragment is used to simulate the HTML tags*/
       <React.Fragment>
-        <Navbar />
+        <Navbar/>
         <Switch>
           <Route exact path = "/" component = { ProductList } />
           <Route path = "/About" component = { About } />
