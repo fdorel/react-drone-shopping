@@ -25,7 +25,7 @@ class App extends Component {
           <Route path = "/cart" component = { Cart } />
           <Route component = { Default } />
         </Switch>
-          <Modal />
+          <Modal/>
       </React.Fragment>
     );
   }
